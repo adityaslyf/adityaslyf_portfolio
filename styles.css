@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -217,14 +218,31 @@ header .container h1 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
 .form-group {
     margin-bottom: 15px;
+    text-align: left;
 }
 
 .form-group label {
     display: block;
     margin-bottom: 5px;
     font-weight: 600;
+    font-size: 18px;
 }
 
 .form-group input,
